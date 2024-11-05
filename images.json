@@ -1,82 +1,82 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/balerion.jpg",
+            "imgName": "Balerion the Black Dread",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/vhagar.jpg",
+            "imgName": "Vhagar",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/meraxes.jpg",
+            "imgName": "Meraxes",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/cannibal.jpg",
+            "imgName": "Cannibal",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/...",
+            "imgName": "Vermithor",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/...",
+            "imgName": "Sheepstealer",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/...",
+            "imgName": "Silverwing",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/...",
+            "imgName": "Dreamfyre",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/...",
+            "imgName": "Caraxes",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
+            "imgPath": "img/...",
+            "imgName": "Meleys",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
+            "imgPath": "img/...",
+            "imgName": "Syrax",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
+            "imgPath": "img/...",
+            "imgName": "Quicksilver",
+            "description": "...",
+            "date": "..."
         },
         {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/...",
+            "imgName": "Grey Ghost",
+            "description": "...",
+            "date": "..."
         }
   ]
 }

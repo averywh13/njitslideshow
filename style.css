@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
+    background-image: url('../img/backgroundimg.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -37,6 +37,9 @@ body {
     font-size: 2rem; /* Increased font size for better readability */
     font-weight: bold;
     color: #333;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;   
     /* Optional: Customize the text color */
 }
 
