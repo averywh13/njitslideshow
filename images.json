@@ -25,56 +25,56 @@
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/vermithor.jpg",
             "imgName": "Vermithor",
             "description": "...",
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/sheepstealer.png",
             "imgName": "Sheepstealer",
             "description": "...",
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/silverwing.jpg",
             "imgName": "Silverwing",
             "description": "...",
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/dreamfyre.jpg",
             "imgName": "Dreamfyre",
             "description": "...",
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/caraxes.png",
             "imgName": "Caraxes",
             "description": "...",
             "date": "..."
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/meleys.jpg",
             "imgName": "Meleys",
             "description": "...",
             "date": "..."
         },
         {
+            "imgPath": "img/drogon.jpg",
+            "imgName": "Drogon",
+            "description": "...",
+            "date": "..."
+        },
+        {
             "imgPath": "img/...",
+            "imgName": "Rheagal",
+            "description": "...",
+            "date": "..."
+        },
+        {
+           "imgPath": "img/syrax.jpg",
             "imgName": "Syrax",
-            "description": "...",
-            "date": "..."
-        },
-        {
-            "imgPath": "img/...",
-            "imgName": "Quicksilver",
-            "description": "...",
-            "date": "..."
-        },
-        {
-            "imgPath": "img/...",
-            "imgName": "Grey Ghost",
             "description": "...",
             "date": "..."
         }
