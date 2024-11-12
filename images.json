@@ -2,81 +2,81 @@
     "images": [
         {
             "imgPath": "img/balerion.jpg",
-            "imgName": "Balerion the Black Dread",
-            "description": "...",
-            "date": "..."
+            "imgName": "The Black Dread: Balerion",
+            "description": "Pitch black scales with red eyes",
+            "claim": "Viserys I Targaryen"
         },
         {
             "imgPath": "img/vhagar.jpg",
-            "imgName": "Vhagar",
-            "description": "...",
-            "date": "..."
+            "imgName": "The Queen of All Dragons: Vhagar",
+            "description": "Deep jade-green scales with orange eyes",
+            "claim": "Aemond Targaryen"
         },
         {
             "imgPath": "img/meraxes.jpg",
             "imgName": "Meraxes",
-            "description": "...",
-            "date": "..."
+            "description": "Pale silver scales with golden eyes ",
+            "claim": "Rhaenys Targaryen"
         },
         {
             "imgPath": "img/cannibal.jpg",
             "imgName": "Cannibal",
-            "description": "...",
-            "date": "..."
+            "description": "Coal black scales with green eyes",
+            "claim": "None"
         },
         {
             "imgPath": "img/vermithor.jpg",
-            "imgName": "Vermithor",
-            "description": "...",
-            "date": "..."
+            "imgName": "The Bronze Fury: Vermithor",
+            "description": "Bronze scales with orange eyes ",
+            "claim": "Hugh Hammer"
         },
         {
             "imgPath": "img/sheepstealer.png",
             "imgName": "Sheepstealer",
-            "description": "...",
-            "date": "..."
+            "description": "Mud-brown scales with golden eyes",
+            "claim": "Nettles"
         },
         {
             "imgPath": "img/silverwing.jpg",
             "imgName": "Silverwing",
-            "description": "...",
-            "date": "..."
+            "description": "Light silver scales with orange eyes",
+            "claim": "Ulf White"
         },
         {
             "imgPath": "img/dreamfyre.jpg",
             "imgName": "Dreamfyre",
-            "description": "...",
-            "date": "..."
+            "description": "Soft blue with deep blue eyes",
+            "claim": "Helaena Targaryen"
         },
         {
             "imgPath": "img/caraxes.png",
-            "imgName": "Caraxes",
-            "description": "...",
-            "date": "..."
+            "imgName": "The Blood Wyrm: Caraxes",
+            "description": "Rich red scales with yellow eyes",
+            "claim": "Daemon Targaryen"
         },
         {
             "imgPath": "img/meleys.jpg",
-            "imgName": "Meleys",
-            "description": "...",
-            "date": "..."
+            "imgName": "The Red Queen: Meleys",
+            "description": "Scarlet red scales with greenish yellow eyes",
+            "claim": "Rhaenys Targaryen"
         },
         {
             "imgPath": "img/drogon.jpg",
             "imgName": "Drogon",
-            "description": "...",
-            "date": "..."
+            "description": "Deep red and black scales with red eyes",
+            "claim": "Daenerys Targaryen"
         },
         {
-            "imgPath": "img/...",
+            "imgPath": "img/rhaegal.jpeg",
             "imgName": "Rheagal",
-            "description": "...",
-            "date": "..."
+            "description": "Dusty green and bronze scales with orange eyes",
+            "claim": "Daenerys Targaryen"
         },
         {
-           "imgPath": "img/syrax.jpg",
+            "imgPath": "img/syrax.jpg",
             "imgName": "Syrax",
-            "description": "...",
-            "date": "..."
+            "description": "Light yellow scales with green eyes",
+            "claim": "Rhaenyra Targaryen"
         }
   ]
 }
