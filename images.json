@@ -2,13 +2,13 @@
     "images": [
         {
             "imgPath": "img/balerion.jpg",
-            "name": "The Black Dread: Balerion",
+            "name": "The Black Dread - Balerion",
             "description": "Pitch black scales with red eyes",
             "claim": "Viserys I Targaryen"
         },
         {
             "imgPath": "img/vhagar.jpg",
-            "name": "The Queen of All Dragons: Vhagar",
+            "name": "The Queen of All Dragons - Vhagar",
             "description": "Deep jade-green scales with orange eyes",
             "claim": "Aemond Targaryen"
         },
@@ -26,7 +26,7 @@
         },
         {
             "imgPath": "img/vermithor.jpg",
-            "name": "The Bronze Fury: Vermithor",
+            "name": "The Bronze Fury - Vermithor",
             "description": "Bronze scales with orange eyes ",
             "claim": "Hugh Hammer"
         },
@@ -50,13 +50,13 @@
         },
         {
             "imgPath": "img/caraxes.png",
-            "name": "The Blood Wyrm: Caraxes",
+            "name": "The Blood Wyrm - Caraxes",
             "description": "Rich red scales with yellow eyes",
             "claim": "Daemon Targaryen"
         },
         {
             "imgPath": "img/meleys.jpg",
-            "name": "The Red Queen: Meleys",
+            "name": "The Red Queen - Meleys",
             "description": "Scarlet red scales with greenish yellow eyes",
             "claim": "Rhaenys Targaryen"
         },
@@ -68,7 +68,7 @@
         },
         {
             "imgPath": "img/rhaegal.jpeg",
-            "name": "Rheagal",
+            "name": "Rhaegal",
             "description": "Dusty green and bronze scales with orange eyes",
             "claim": "Daenerys Targaryen"
         },
