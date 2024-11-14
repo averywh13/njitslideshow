@@ -30,17 +30,14 @@ $(document).ready(() => {
 // Function to fetch JSON data and store it in mImages
 function fetchJSON() {
   $.ajax({
-    type: 'GET',
     url: mUrl,
-    success: function (data) {
-
+    method: 'GET',
+    success: (data) => {
       mImages = data.images;
-
       document.getElementById('photo').src = mImages[0].imgPath
       document.getElementById('name').textContent = `Name: ${mImages[0].name}`
       document.getElementById('description').textContent = `Description: ${mImages[0].description}`
       document.getElementById('claim').textContent = `Claimed By: ${mImages[0].claim}`
-
     },
   });
 }
@@ -72,7 +69,6 @@ function showNextPhoto() {
     if (mCurrentIndex == mImages.length) {
       mCurrentIndex = 0;
     }
-
     console.log(mCurrentIndex);
     swapPhoto();
 }
@@ -88,7 +84,6 @@ function showPrevPhoto() {
     if (mCurrentIndex < 0) {
       mCurrentIndex = mImages.length - 1;
     }
-
     console.log(mCurrentIndex);
     swapPhoto();
 }
