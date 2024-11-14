@@ -59,24 +59,6 @@
             "name": "The Red Queen - Meleys",
             "description": "Scarlet red scales with greenish yellow eyes",
             "claim": "Rhaenys Targaryen"
-        },
-        {
-            "imgPath": "img/drogon.jpg",
-            "name": "Drogon",
-            "description": "Deep red and black scales with red eyes",
-            "claim": "Daenerys Targaryen"
-        },
-        {
-            "imgPath": "img/rhaegal.jpeg",
-            "name": "Rhaegal",
-            "description": "Dusty green and bronze scales with orange eyes",
-            "claim": "Daenerys Targaryen"
-        },
-        {
-            "imgPath": "img/syrax.jpg",
-            "name": "Syrax",
-            "description": "Light yellow scales with green eyes",
-            "claim": "Rhaenyra Targaryen"
         }
   ]
 }
