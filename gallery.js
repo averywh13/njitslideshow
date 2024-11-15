@@ -1,23 +1,25 @@
-let mCurrentIndex = 0 // Tracks the current image index
-let mImages = [] // Array to hold GalleryImage objects
-const mUrl = 'images.json' // Replace with actual JSON URL
-const mWaitTime = 5000 // Timer interval in milliseconds
-
+let mCurrentIndex = 0; // Tracks the current image index
+let mImages = []; // Array to hold GalleryImage objects
+const mUrl = 'images.json'; // Replace with actual JSON URL
+const mWaitTime = 5000; // Timer interval in milliseconds
 
 
 
 
 
 $(document).ready(() => {
-  $('.details').hide()
-  startTimer ();
-  $('moreIndicator').on('click', function (){
-    $(this).toggleClass('rot90 rot270');
+  $('.details').hide();
+  startTimer();
+  $('.moreIndicator').on('click', () => {
+    $('.moreIndicator').toggleClass('rot90');
     $('.details').slideToggle();
   })
-  $('#nextPhoto').on('click', showNextPhoto);
-  $('#prevPhoto').on('click', showPrevPhoto);
-
+  $('#nextPhoto').on('click', () => {
+    showNextPhoto();
+  })
+  $('#prevPhoto').on('click', () => {
+    showPrevPhoto();
+  })
   fetchJSON()
 })
 
@@ -30,15 +32,15 @@ $(document).ready(() => {
 // Function to fetch JSON data and store it in mImages
 function fetchJSON() {
   $.ajax({
+    type: 'GET',
     url: mUrl,
-    method: 'GET',
-    success: (data) => {
+    success: function (data) {
       mImages = data.images;
-      document.getElementById('photo').src = mImages[0].imgPath
-      document.getElementById('name').textContent = `Name: ${mImages[0].name}`
-      document.getElementById('description').textContent = `Description: ${mImages[0].description}`
-      document.getElementById('claim').textContent = `Claimed By: ${mImages[0].claim}`
+      swapPhoto();
     },
+    error: function () {
+      console.log('Connection error.');
+    }
   });
 }
 
@@ -47,14 +49,13 @@ function fetchJSON() {
 
 
 
-
 // Function to swap and display the next photo in the slideshow
 function swapPhoto() {
-  let imageData = mImages[mCurrentIndex];
-  $('#photo').attr("src",imageData.imgPath);
-  $('.name').text("Name: " + imageData.name);
-  $('.description').text("Description: " + imageData.description);
-  $('.claim').text("Claimed By: " + imageData.claim);
+  let theData = mImages[mCurrentIndex];
+  $('#photo').attr('src', theData.imgPath);
+  $('#name').text(`Name: ${theData.name}`);
+  $('#description').text(`Description: ${theData.description}`);
+  $('#claim').text(`Claimed By: ${theData.claim}`);
 }
 
 
@@ -65,13 +66,15 @@ function swapPhoto() {
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto() {
-    mCurrentIndex++;
-    if (mCurrentIndex == mImages.length) {
-      mCurrentIndex = 0;
-    }
-    console.log(mCurrentIndex);
-    swapPhoto();
+  mCurrentIndex++;
+  if (mCurrentIndex === 10) {
+    mCurrentIndex = 0;
+  }
+  swapPhoto()
+  console.log(mCurrentIndex);
+  resetTimer();
 }
+
 
 
 
@@ -81,22 +84,24 @@ function showNextPhoto() {
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto() {
   mCurrentIndex--;
-    if (mCurrentIndex < 0) {
-      mCurrentIndex = mImages.length - 1;
-    }
-    console.log(mCurrentIndex);
-    swapPhoto();
+  if (mCurrentIndex === -1) {
+    mCurrentIndex = 9;
+  }
+  swapPhoto()
+  console.log(mCurrentIndex);
+  resetTimer();
 }
 
 
 
 
 
-
-
 // Starter code for the timer function
+let interval;
 function startTimer() {
-  setInterval(() => {
-    showNextPhoto();
-  }, mWaitTime);
+  interval = setInterval(showNextPhoto, mWaitTime);
+}
+function resetTimer() {
+  clearInterval(interval);
+  startTimer()
 }
