@@ -1,61 +1,61 @@
 {
     "images": [
         {
-            "imgPath": "img/balerion.jpg",
+            "imgPath": "img/balerion2.png",
             "name": "The Black Dread - Balerion",
             "description": "Pitch black scales with red eyes",
             "claim": "Viserys I Targaryen"
         },
         {
-            "imgPath": "img/vhagar.jpg",
+            "imgPath": "img/vhagar2.png",
             "name": "The Queen of All Dragons - Vhagar",
             "description": "Deep jade-green scales with orange eyes",
             "claim": "Aemond Targaryen"
         },
         {
-            "imgPath": "img/meraxes.jpg",
+            "imgPath": "img/meraxes2.png",
             "name": "Meraxes",
             "description": "Pale silver scales with golden eyes ",
             "claim": "Rhaenys Targaryen"
         },
         {
-            "imgPath": "img/cannibal.jpg",
+            "imgPath": "img/cannibal2.png",
             "name": "Cannibal",
             "description": "Coal black scales with green eyes",
             "claim": "None"
         },
         {
-            "imgPath": "img/vermithor.jpg",
+            "imgPath": "img/vermithor2.png",
             "name": "The Bronze Fury - Vermithor",
             "description": "Bronze scales with orange eyes ",
             "claim": "Hugh Hammer"
         },
         {
-            "imgPath": "img/sheepstealer.png",
+            "imgPath": "img/sheepstealer2.png",
             "name": "Sheepstealer",
             "description": "Mud-brown scales with golden eyes",
             "claim": "Nettles"
         },
         {
-            "imgPath": "img/silverwing.jpg",
+            "imgPath": "img/silverwing2.png",
             "name": "Silverwing",
             "description": "Light silver scales with orange eyes",
             "claim": "Ulf White"
         },
         {
-            "imgPath": "img/dreamfyre.jpg",
+            "imgPath": "img/dreamfyre2.png",
             "name": "Dreamfyre",
             "description": "Soft blue with deep blue eyes",
             "claim": "Helaena Targaryen"
         },
         {
-            "imgPath": "img/caraxes.png",
+            "imgPath": "img/caraxes2.png",
             "name": "The Blood Wyrm - Caraxes",
             "description": "Rich red scales with yellow eyes",
             "claim": "Daemon Targaryen"
         },
         {
-            "imgPath": "img/meleys.jpg",
+            "imgPath": "img/meleys2.png",
             "name": "The Red Queen - Meleys",
             "description": "Scarlet red scales with greenish yellow eyes",
             "claim": "Rhaenys Targaryen"

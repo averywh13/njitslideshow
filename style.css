@@ -36,7 +36,7 @@ body {
 .banner {
     font-size: 2rem; /* Increased font size for better readability */
     font-weight: bold;
-    color: #333;
+    color: #e2b332;
     font-family: "Uncial Antiqua", system-ui;
     font-weight: 400;
     font-style: normal;   
@@ -62,12 +62,15 @@ body {
 
 /* Metadata container styling */
 .details {
-    border: 1px dashed #000;
+    border: 1px dashed #000000;
     padding: 15px;
-    background-color: #f8f9fa; /* Light background to distinguish from main area */
+    background-color: #000000; /* Light background to distinguish from main area */
     border-radius: 4px;
-    color: #333;
+    color: #ffffff;
     font-size: 1rem; /* Slightly larger text for readability */
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Style for each paragraph in details */
